@@ -291,6 +291,7 @@ img {
 
 .home__card-img{
   transition: transform .4s;
+  border-radius: .5rem;
 }
 
 .home__card-shadow{
@@ -361,6 +362,7 @@ img {
 
 .about__img{
   width: 300px;
+  border-radius: .5rem;
   transition: transform .4s;
 }
 
@@ -394,6 +396,7 @@ img {
 }
 
 .popular__img{
+  border-radius: .5rem;
   transition: transform .4s;
 }
 
@@ -519,6 +522,7 @@ img {
 
 .join__img{
   width: 300px;
+  border-radius: .5rem;
   transition: transform .4s;
 }
 
