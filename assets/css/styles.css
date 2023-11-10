@@ -141,6 +141,7 @@ img {
 }
 
 .nav__logo{
+  width: 250px;
   color: var(--title-color);
   font-family: var(--second-font);
   font-weight: var(--font-semi-bold);
@@ -319,7 +320,7 @@ img {
 
 /*=============== BUTTON ===============*/
 .button{
-  background-color: hsla(0, 0%, 100%, .2);
+  background-color: #029EDA;
   padding: 1.25rem 1.5rem;
   color: var(--title-color);
   display: inline-flex;
@@ -383,6 +384,12 @@ img {
 
 /*=============== POPULAR ===============*/
 .popular__container{
+  padding-top: 1.5rem;
+  grid-template-columns: 240px;
+  justify-content: center;
+  row-gap: 2.5rem;
+}
+.popular__container2{
   padding-top: 1.5rem;
   grid-template-columns: 240px;
   justify-content: center;
@@ -706,6 +713,9 @@ img {
   .popular__container{
     grid-template-columns: repeat(2, 240px);
   }
+  .popular__container2{
+    grid-template-columns: repeat(2, 240px);
+  }
 
   .explore__img{
     width: 100vw;
@@ -740,6 +750,9 @@ img {
   }
 
   .popular__container{
+    grid-template-columns: repeat(3, 240px);
+  }
+  .popular__container2{
     grid-template-columns: repeat(3, 240px);
   }
 
@@ -811,6 +824,11 @@ img {
 
   .popular__container{
     grid-template-columns: repeat(3, 300px);
+    column-gap: 3rem;
+    padding-top: 1rem;
+  }
+  .popular__container2{
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 3rem;
     padding-top: 1rem;
   }
