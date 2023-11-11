@@ -278,6 +278,7 @@ img {
 }
 
 .home__cards{
+  margin-top: 8.5rem;
   grid-template-columns: 240px;
   justify-content: center;
 }
@@ -753,6 +754,7 @@ img {
     margin-bottom: 2.5rem;
   }
   .home__cards{
+    margin-top: 2rem;
     grid-template-columns: repeat(4, 260px);
   }
   .home__card-title{
