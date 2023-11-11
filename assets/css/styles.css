@@ -320,6 +320,7 @@ img {
   background-color: #029EDA;
   padding: 1.25rem 1.5rem;
   color: var(--title-color);
+  border-radius: .5rem;
   display: inline-flex;
   align-items: center;
   column-gap: .5rem;
@@ -619,6 +620,7 @@ img {
   padding: 6px;
   display: inline-flex;
   color: var(--title-color);
+  border-radius: .5rem;
   font-size: 1.25rem;
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px); /* For safari */
