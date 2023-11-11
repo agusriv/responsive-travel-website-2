@@ -141,10 +141,7 @@ img {
 }
 
 .nav__logo{
-  width: 250px;
-  color: var(--title-color);
-  font-family: var(--second-font);
-  font-weight: var(--font-semi-bold);
+  width: 200px;
 }
 
 .nav__toggle,
@@ -704,6 +701,9 @@ img {
   .nav__list{
     flex-direction: row;
     column-gap: 4rem;
+  }
+  .nav__logo{
+    width: 250px;
   }
 
   .popular__container{
